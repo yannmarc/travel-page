@@ -1,0 +1,7 @@
+* {
+  font-family: "Poppins";
+}
+
+.main-container {
+  @apply lg:max-w-[1300px] lg:mx-auto px-6 xl:px-0;
+}
