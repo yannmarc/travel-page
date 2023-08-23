@@ -2,9 +2,7 @@
 
 # Travel landing page
 
-This project was designed by **Didem Güler** a top notch UI designer with whom I was honored connecting with to implement this outstanding piece of UI.
-
-Didem as mentioned above is a UI/UX designer that works at *The Hot platform* where she crafts beautiful UI's and build memorable and enjoyyable experience with her end users.
+The design of this project was created by a highly skilled UI designer named **Didem Güler**. It was a great privilege to collaborate with Didem in implementing this exceptional UI. Didem is an accomplished UI/UX designer employed at The Hot platform, where she expertly crafts stunning user interfaces and creates memorable and enjoyable experiences for end users.
 
 **Below is my workflow about the implementation of this project.**
 
