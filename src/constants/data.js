@@ -1,4 +1,4 @@
-import { cardUI1, cardUI2, cardUI3, iconBooking, iconGeography, iconWeather } from "./images";
+import { cardUI1, cardUI2, cardUI3, iconBooking, iconGeography, iconWeather, markSmith } from "./images";
 
 const navLinks = [
     "Home",
@@ -77,6 +77,31 @@ const travelStats = [
         desc: "Happy Customer"
     }
 ];
+
+const testimonials = [
+    {
+        id: 1,
+        name: "mark smith",
+        desc: "travel enthusiast",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        avatar: markSmith
+    },
+    {
+        id: 2,
+        name: "mark smith",
+        desc: "travel enthusiast",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        avatar: markSmith
+    },
+    {
+        id: 3,
+        name: "mark smith",
+        desc: "travel enthusiast",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        avatar: markSmith
+    },
+    
+]
 
 export {
     navLinks,

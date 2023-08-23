@@ -6,7 +6,10 @@ import geoLocation from '../assets/svgs/geo_position.svg';
 import mapLocation from '../assets/svgs/map-locations.svg';
 import iconBooking from '../assets/svgs/icon-booking.svg';
 import iconGeography from '../assets/svgs/icon-geography.png';
-import iconWeather from '../assets/svgs/icon-weather.svg'
+import iconWeather from '../assets/svgs/icon-weather.svg';
+import iconMail from '../assets/svgs/mail.svg';
+import iconTwitter from '../assets/svgs/icon-twitter.svg';
+import iconFacebook from '../assets/svgs/icon-facebook.svg';
 
 // PNGs
 import cardUI1 from '../assets/pngs/card-ui-1.png';
@@ -22,6 +25,7 @@ import offfer from '../assets/pngs/offer.png';
 import coupons from '../assets/pngs/coupon.png';
 import schedule from '../assets/pngs/schedule.png';
 import FeatureHero from '../assets/pngs/feature-hero.png';
+import markSmith from '../assets/pngs/mark-smith.png';
 // JPGs
 
 
@@ -35,6 +39,10 @@ export {
     iconBooking,
     iconGeography,
     iconWeather,
+    iconMail,
+    iconTwitter,
+    iconFacebook,
+
 
     //PNGs
     cardUI1,
@@ -49,5 +57,6 @@ export {
     coupons,
     offfer,
     schedule,
-    FeatureHero
+    FeatureHero,
+    markSmith
 }
