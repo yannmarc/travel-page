@@ -9,12 +9,12 @@ const Destination = () => {
     <Fragment>
       <section>
         <div className="py-[137.5px] lg:max-w-[1100px] lg:mx-auto px-6 xl:px-0">
-          <div className="text flex justify-between py-[27.5px]">
+          <div className="text flex items-center justify-between py-[27.5px] gap-x-4">
             <Headline
               subHeading={"TOP DESTINATION"}
               heading={"Explore top destination"}
             />
-            <div className="flex gap-x-4">
+            <div className="flex gap-x-4 ">
               <SliderButton bgColor={"#7691B9"}>
                 <svg
                   width="32"
@@ -45,7 +45,7 @@ const Destination = () => {
               </SliderButton>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center my-[21px]">
+          <div className="flex flex-col items-center gap-y-8 lg:flex-row lg:justify-between lg:items-center my-[21px]">
             {
                 destinations.map((destination) => (
                     <Cards price={destination.price} rating={destination.rate} country={destination.country} location={destination.location} placeHolder={destination.placeHolder} />
