@@ -7,9 +7,9 @@ const TravelPoint = () => {
   return (
    <Fragment>
     <section className='relative'>
-        <div className="lg:max-w-[1100px] lg:mx-auto px-6 xl:px-0 flex justify-between">
+        <div className="lg:max-w-[1100px] lg:mx-auto px-6 xl:px-0 flex justify-between lg:flex-row flex-col gap-y-[50px]">
             <div className="img">
-                <span className="absolute left-0 top-0 w-[659px] h-[567px] bg-[#7691B9] rounded-tr-[500px] rounded-br-[500px]"></span>
+                <span className="absolute left-0 top-0 w-full h-[500px] lg:w-[659px] 2xl:w-[1200px] lg:h-[567px] bg-[#7691B9] rounded-tr-[500px] rounded-br-[500px]"></span>
                 <img className="relative z-10 mt-[72px]" src={travelingGirl} alt="girl siting down with a yellow bag by her left" />
             </div>
             <div className="text">
