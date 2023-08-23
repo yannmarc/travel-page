@@ -4,9 +4,9 @@ import { cardUI1, iconStart } from '../../constants/images'
 const Cards = ({placeHolder, location, price, rating, country}) => {
   return (
     <Fragment>
-        <div className="max-w-[294px] shadow-2xl rounded-[24px]">
+        <div className="max-w-[380px] lg:max-w-[294px] shadow-2xl rounded-[24px]">
             <div className="">
-                <img src={placeHolder} alt="man sailing on the paradise beach" />
+                <img className="w-full" src={placeHolder} alt="man sailing on the paradise beach" />
             </div>
             <div className="p-8 flex flex-col gap-y-8">
                 <div className="flex justify-between">
