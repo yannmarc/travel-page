@@ -6,13 +6,13 @@ const KeyFeatures = () => {
   return (
     <Fragment>
         <section className='py-[100px]'>
-            <div className="lg:max-w-[1100px] lg:mx-auto px-6 xl:px-0">
+            <div className="lg:max-w-[1100px] lg:mx-auto px-6 xl:px-0 ">
                 <Headline 
                 subHeading={"Key Features"}
                 heading={"We offer best services"}
                 descText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
                 />
-                <div className="mt-[25px] flex justify-between items-center">
+                <div className="flex justify-between items-start flex-col gap-y-8 lg:flex-row lg:items-center py-[50px]">
                     <div className="space-y-[94px]">
                         <div className="flex gap-x-10">
                             <img src={offfer} alt="offer icon" className=' inline-block' />
